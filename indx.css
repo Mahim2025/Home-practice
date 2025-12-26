@@ -1,0 +1,110 @@
+#top{
+        color: royalblue;
+        font-size: 30px;
+    }
+/* 🔹 Link (HTML a tag প্রথমে) */
+a:link {
+  color: green;
+}
+a:visited {
+  color: red;
+}
+
+
+/* 🔹 User Interaction */
+button:hover {
+  background: lightblue;
+}
+button:active {
+  background: orange;
+}
+input:focus {
+  border: 2px solid green;
+}
+input:focus-visible {
+  outline: 2px dashed red;
+}
+.form-box:focus-within {
+  background: brown;
+}
+
+/* 🔹 Form & Input */
+input:checked {
+  outline: 2px solid green;
+}
+input:disabled {
+  background: #ccc;
+}
+input:enabled {
+  background: #eaffea;
+}
+input:required {
+  border: 2px solid red;
+}
+input:optional {
+  border: 1px solid gray;
+}
+input:valid {
+  border-color: green;
+}
+input:invalid {
+  border-color: red;
+}
+input:in-range {
+  background: lightgreen;
+}
+input:out-of-range {
+  background: pink;
+}
+input:read-only {
+  background: #eee;
+}
+input:read-write {
+  background: #fff;
+}
+
+/* 🔹 Structural */
+li:first-child {
+  color: red;
+}
+li:last-child {
+  color: blue;
+}
+li:nth-child(2) {
+  font-weight: bold;
+}
+li:nth-last-child(2) {
+  text-decoration: underline;
+}
+.single:only-child {
+  color: green;
+}
+
+/* 🔹 Type-based */
+p:first-of-type {
+  color: brown;
+}
+p:last-of-type {
+  color: teal;
+}
+p:nth-of-type(2) {
+  font-style: italic;
+}
+span:only-of-type {
+  color: purple;
+}
+
+/* 🔹 Other */
+div:not(.keep) {
+  border: 1px solid black;
+}
+.empty-box:empty {
+  height: 30px;
+  background: yellow;
+}
+:root {
+  font-family: Arial, sans-serif;
+}
+:target {
+  background: lightcoral;
+}
