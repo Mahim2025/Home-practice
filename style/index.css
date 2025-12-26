@@ -1,0 +1,13 @@
+li,a{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin: 15px;
+
+}
+nav li a:hover{
+    background-color: blueviolet;
+}
+.footer{
+    text-align: center;
+}
